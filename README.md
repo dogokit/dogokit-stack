@@ -18,7 +18,6 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
   - [Time Tracking](#time-tracking)
 - [App Stack/Dependency](#app-stackdependency)
   - [App Language/Platform/Runtime](#app-languageplatformruntime)
-  - [Tooling Language/Platform/Runtime](#tooling-languageplatformruntime)
   - [Package Manager](#package-manager)
   - [Full Stack Framework](#full-stack-framework)
   - [Frontend/Client-Side Framework/Library](#frontendclient-side-frameworklibrary)
@@ -37,6 +36,7 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
   - [App Utility](#app-utility)
 - [Development Stack/Dependency](#development-stackdependency)
   - [Language Transpiler](#language-transpiler)
+  - [Tooling Language/Platform/Runtime](#tooling-languageplatformruntime)
   - [Project Bundler](#project-bundler)
   - [Repo Management](#repo-management)
   - [Code Formating](#code-formating)
@@ -104,13 +104,6 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
 - Node.js ⭐
 - Deno
 - Bun
-
-## Tooling Language/Platform/Runtime
-
-These are important just to know the language behind the tools.
-
-- Golang -> esbuild, Vite
-- Rust -> swc, Turbopack
 
 ## Package Manager
 
@@ -318,6 +311,13 @@ File/Asset:
 - TypeScript ⭐: For type safety
 - swc ⭐
 - Babel
+
+## Tooling Language/Platform/Runtime
+
+These are important just to know the language behind the tools.
+
+- Golang → esbuild, Vite
+- Rust → swc, Turbopack
 
 ## Project Bundler
 
