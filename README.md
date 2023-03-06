@@ -516,15 +516,13 @@ Marketing:
 - [ ] Website
   - [ ] Personal Website
   - [ ] Company Profile
-  - [ ] Organization
+  - [ ] Organization Profile
   - [ ] School Portal
   - [ ] Government Portal
   - [ ] Community Portal
 - [ ] Application
-  - [ ] Social Media
-  - [ ] Discussion Forum
-  - [ ] Learning Management System (LMS)
   - [ ] Content Management System (CMS)
+  - [ ] Learning Management System (LMS)
   - [ ] Information and Encyclopedia
   - [ ] News and Magazine
   - [ ] Writing and Publication
@@ -553,7 +551,11 @@ Marketing:
   - [ ] Development Stack/Dependency
   - [ ] Deployment Stack
   - [ ] External Service Stack
-- [ ] Website:
+- [ ] General:
+  - [ ] Format and lint rules
+  - [ ] Function vs arrow function
+  - [ ] Type naming convention
+- [ ] Frontend/Client/Website:
   - [ ] Landing page/route
     - [ ] Header and Navigation
     - [ ] Main
@@ -565,6 +567,9 @@ Marketing:
   - [ ] `sitemap.xml`
   - [ ] `robots.txt`
   - [ ] OG image for social media
+- [ ] Backend/Server/API/Database:
+  - [ ] Model naming convention (singular vs plural)
+  - [ ] Field/property case convention (camel vs snake)
 
 ---
 
