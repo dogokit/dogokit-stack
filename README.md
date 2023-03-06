@@ -17,7 +17,7 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
   - [Documentation](#documentation)
   - [Time Tracking](#time-tracking)
 - [App Stack/Dependency](#app-stackdependency)
-  - [App Language/Platform/Runtime](#app-languageplatformruntime)
+  - [App Language/Platform/Runtime/Format](#app-languageplatformruntimeformat)
   - [Package Manager](#package-manager)
   - [Full Stack Framework](#full-stack-framework)
   - [Frontend/Client-Side Framework/Library](#frontendclient-side-frameworklibrary)
@@ -31,6 +31,7 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
   - [Router/Routing](#routerrouting)
   - [Data Validation](#data-validation)
   - [Form](#form)
+  - [Complex State Management](#complex-state-management)
   - [Database ORM](#database-orm)
   - [Database](#database)
   - [App Utility](#app-utility)
@@ -95,11 +96,12 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
 
 # App Stack/Dependency
 
-## App Language/Platform/Runtime
+## App Language/Platform/Runtime/Format
 
 - HTML ⭐
 - CSS ⭐
 - JavaScript ⭐
+  - JSON ⭐
   - TypeScript ⭐
 - Node.js ⭐
 - Deno
@@ -247,6 +249,15 @@ GraphQL:
   - `react-hook-form`
   - `@hookform/resolvers`
 - Formik
+
+## Complex State Management
+
+- Jotai
+- Zustand
+- XState
+- Recoil
+- Redux
+  - Redux Toolkit (RTK)
 
 ## Database ORM
 
