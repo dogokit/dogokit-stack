@@ -251,6 +251,8 @@ GraphQL:
   - `domain-funcions`
 - HouseForm ⭐: For highly interactive client side form handling
 - React Hook Form (RHF)
+  - `react-hook-form`
+  - `@hookform/resolvers`
 - Formik
 
 ## Database ORM
@@ -287,6 +289,7 @@ Text/String:
 - `@sindresorhus/slugify`
 - Voca: For string manipulaton
 - `pluralize`
+- `country-code-lookup`
 - i18next
   - `remix-i18next`
   - `next-i18next`
@@ -404,6 +407,7 @@ General:
 ## Multimedia/Image/Video
 
 - ImageKit ⭐: For easy image storage/hosting
+  - `imagekitio-react`
 - Mux Video: For modern video hosting
 - bunny.net (Bunny CDN): For cheapesrt video storage/hosting/streaming
 
