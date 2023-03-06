@@ -4,9 +4,9 @@
 
 The opiniated stack list to build modern apps with web technologies. This is the simpler version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the complete list).
 
-THe main criteria in choosing these that it must already been used for building real world apps especially with real teams.
+THe main criteria in choosing these that it must already been used for building real world apps especially with real teams. Every ⭐ indicated the recommendation, but keep in mind it doesn't mean that everything is required.
 
-Every ⭐ indicated the recommendation. But keep in mind it doesn't mean that everything is required.
+You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your app development stack.
 
 - [Catamyst Stack](#catamyst-stack)
 - [Work Stack](#work-stack)
@@ -54,7 +54,7 @@ Every ⭐ indicated the recommendation. But keep in mind it doesn't mean that ev
 
 ---
 
-> BEGIN
+> BEGIN: [Catamyst](https://a.catamyst.com/stack)
 
 ---
 
@@ -438,4 +438,4 @@ Marketing:
 
 ---
 
-> EOF
+> EOF: [Catamyst](https://a.catamyst.com/stack)
