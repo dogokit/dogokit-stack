@@ -8,6 +8,14 @@ THe main criteria in choosing these that it must already been used for building 
 
 You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your app development stack.
 
+Main categories:
+
+- Stack List: For evaluation
+- References: For learning more
+- Checklist: For development
+
+Table of Contents:
+
 - [Catamyst Stack](#catamyst-stack)
 - [Work Stack](#work-stack)
   - [Communication](#communication)
@@ -48,10 +56,17 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
   - [Frontend/Client Focused](#frontendclient-focused)
   - [Backend/Server Focused](#backendserver-focused)
 - [External Service Stack](#external-service-stack)
+  - [Analytics](#analytics)
   - [Multimedia/Image/Video](#multimediaimagevideo)
   - [Map](#map)
   - [Mail](#mail)
+  - [Log](#log)
   - [CI/CD](#cicd)
+- [References](#references)
+  - [Template](#template)
+- [Checklist](#checklist)
+  - [Ideas](#ideas)
+  - [Todos](#todos)
 
 ---
 
@@ -103,21 +118,21 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
 - JavaScript ⭐
   - JSON ⭐
   - TypeScript ⭐
-- Node.js ⭐
+- Node.js v19+ ⭐
 - Deno
 - Bun
 
 ## Package Manager
 
-- pnpm ⭐
-- npm
+- pnpm v7+ ⭐
+- npm v8+
 - yarn
 
 ## Full Stack Framework
 
-- Remix ⭐
+- Remix v1.14+ ⭐
   - 📦 React, TypeScript, Prisma, Tailwind CSS, Remix Auth
-- Next.js ⭐
+- Next.js v13+ ⭐
   - T3 Stack ⭐
     - 📦 Next.js, TypeScript, tRPC, Prisma, Tailwind CSS, NextAuth.js
 - SolidStart
@@ -144,6 +159,9 @@ You can [use this repo as a template](https://github.com/catamyst/stack/generate
 - Auth.js ⭐
   - `next-auth`
 - Clerk
+  - `@clerk/remix`
+  - `@clerk/nextjs`
+- Auth0
 
 Methods:
 
@@ -198,7 +216,8 @@ GraphQL:
 ## Styling
 
 - clsx ⭐
-- Tailwind CSS ⭐
+- [Tailwind CSS](https://tailwindcss.com) ⭐
+  - [Tailwind UI](https://tailwindui.com)
   - `tailwindcss`
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
@@ -215,9 +234,10 @@ GraphQL:
 
 ## Components
 
-- Radix UI ⭐
-  - shadcn UI (`shadcn/ui`)
-- Headless UI
+- [Radix UI](https://radix-ui.com) ⭐
+  - [shadcn UI](https://ui.shadcn.com) (`shadcn/ui`)
+    - [Chimera UI](https://chimera-ui.com)
+- [Headless UI](https://headlessui.com)
 - Ariakit
 - Downshift
 - React Wrap Balancer
@@ -225,12 +245,16 @@ GraphQL:
 
 ## Icons
 
-- Lucide
+- [Lucide](https://lucide.dev) ⭐
   - `lucide-react`
+- [Heroicons](https://heroicons.com)
+  - `@heroicons/react`
+- React Icons
+  - `react-icons`
 
 ## Router/Routing
 
-- React Router ⭐
+- React Router v6 ⭐
 - Next Router
 - TanStack Router
 
@@ -313,6 +337,14 @@ File/Asset:
 
 - `pdfjs-dist`: For parsing and rendering PDFs
 
+Log:
+
+- Axiom
+
+Email:
+
+- Nodemailer
+
 ---
 
 # Development Stack/Dependency
@@ -346,6 +378,8 @@ These are important just to know the language behind the tools.
 ## Code Formating
 
 - Pretier ⭐: For opiniated formatting
+  - `prettier-plugin-tailwindcss`
+  - `IanVS/prettier-plugin-sort-imports`
 - Rome
 - EditorConfig
 
@@ -388,6 +422,7 @@ Workflow:
 
 General:
 
+- `bundle-wizard`
 - `@milahu/patch-package`
 
 ---
@@ -415,6 +450,13 @@ General:
 
 # External Service Stack
 
+## Analytics
+
+- Fathom
+- Plausible
+- Google Analytics
+- Cloudflare Analytics
+
 ## Multimedia/Image/Video
 
 - ImageKit ⭐: For easy image storage/hosting
@@ -441,11 +483,88 @@ Marketing:
 
 - ConvertKit
 
+## Log
+
+- Pino
+
 ## CI/CD
 
 - GitHub Actions ⭐: For easy CI/CD on GitHub
 - GitLab CI: For easy CI/CD on GitLab
 - Circle CI
+
+---
+
+# References
+
+- [Catamyst Stack All](https://a.catamyst.com/stack-all)
+- [Infra I'm Building On In 2023](https://t3.gg/blog/post/2023-infra)
+  - [The Infra That Saved Me From AWS - My 2023 Stack](https://www.youtube.com/watch?v=v-9AZKp-Ljo)
+
+## Template
+
+- [Rewinds](https://rewinds.mhaidarhanif.com)
+- [SaasRock - The One-Man SaaS Framework](https://saasrock.com)
+- [MakerKit - SaaS Starter Kits based on React](https://makerkit.dev)
+
+---
+
+# Checklist
+
+## Ideas
+
+- [ ] Website
+  - [ ] Personal Website
+  - [ ] Company Profile
+  - [ ] Organization
+  - [ ] School Portal
+  - [ ] Government Portal
+  - [ ] Community Portal
+- [ ] Application
+  - [ ] Social Media
+  - [ ] Discussion Forum
+  - [ ] Learning Management System (LMS)
+  - [ ] Content Management System (CMS)
+  - [ ] Information and Encyclopedia
+  - [ ] News and Magazine
+  - [ ] Writing and Publication
+  - [ ] Work and Productivity
+  - [ ] Contacts and Address Book
+  - [ ] Social Media and Event
+  - [ ] Note-Taking and Research
+  - [ ] Multimedia Streaming
+  - [ ] Cooking and Culinary
+  - [ ] Commerce and Shopping
+  - [ ] Forum and Discussion
+  - [ ] Jobs and Hiring
+  - [ ] Health and Fitness Tracker
+  - [ ] Personal Development
+  - [ ] Places and Exploration
+  - [ ] Travel and Accommodation
+  - [ ] Property and Housing
+  - [ ] Directory and List
+  - [ ] Software as a Service (SaaS)
+
+## Todos
+
+- [ ] Stack:
+  - [ ] Work Stack
+  - [ ] App Stack/Dependency
+  - [ ] Development Stack/Dependency
+  - [ ] Deployment Stack
+  - [ ] External Service Stack
+- [ ] Website:
+  - [ ] Landing page/route
+    - [ ] Header and Navigation
+    - [ ] Main
+    - [ ] Footer
+  - [ ] 404 Not Found page/route
+  - [ ] Splat (`*`) routes
+  - [ ] Analytics
+  - [ ] SEO metadata
+  - [ ] `sitemap.xml`
+  - [ ] `robots.txt`
+  - [ ] OG image for social media
 
 ---
 
