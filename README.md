@@ -313,7 +313,6 @@ File/Asset:
 ## Language Transpiler
 
 - TypeScript ⭐: For type safety
-  - @total-typescript/ts-reset
 - swc ⭐
 - Babel
 
@@ -361,12 +360,21 @@ File/Asset:
 
 ## Dev Utility
 
+TypeScript:
+
+- `@total-typescript/ts-reset`: For improving types for common JavaScript AP
+
+Workflow:
+
 - Doppler ⭐: For team environment variable management
-- Kodiak ⭐: For pull request management
-- npm-run-all ⭐: For parallel scripts
+- Kodiak: For pull request management
+- `npm-run-all`/`run-p`: For parallel scripts
 - `motdotla/dotenv`
-- `@milahu/patch-package`
 - Husky
+
+General:
+
+- `@milahu/patch-package`
 
 ---
 
@@ -395,9 +403,9 @@ File/Asset:
 
 ## Multimedia/Image/Video
 
-- ImageKit ⭐: For easy image storage hosting
-- Mux
-- Bunny.net
+- ImageKit ⭐: For easy image storage/hosting
+- Mux Video: For modern video hosting
+- bunny.net (Bunny CDN): For cheapesrt video storage/hosting/streaming
 
 ## Map
 
