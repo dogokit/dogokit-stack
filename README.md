@@ -19,10 +19,10 @@ Table of Contents:
 - [Catamyst Stack](#catamyst-stack)
 - [Work Stack](#work-stack)
   - [Communication](#communication)
-  - [Project/Product Management](#projectproduct-management)
+  - [Project or Product Management](#project-or-product-management)
   - [Data Management](#data-management)
   - [Repository](#repository)
-  - [Documentation](#documentation)
+  - [Documentation and Content](#documentation-and-content)
   - [Time Tracking](#time-tracking)
 - [App Stack/Dependency](#app-stackdependency)
   - [App Language/Platform/Runtime/Format](#app-languageplatformruntimeformat)
@@ -30,6 +30,7 @@ Table of Contents:
   - [Full Stack Framework](#full-stack-framework)
   - [Frontend/Client-Side Framework/Library](#frontendclient-side-frameworklibrary)
   - [API Layer](#api-layer)
+  - [Content Layer](#content-layer)
   - [Auth Layer](#auth-layer)
   - [Backend/Server-Side Framework/Library](#backendserver-side-frameworklibrary)
   - [Data Fething](#data-fething)
@@ -82,7 +83,7 @@ Table of Contents:
 - Twist
 - Slack
 
-## Project/Product Management
+## Project or Product Management
 
 - Linear ⭐
 - Trello
@@ -97,15 +98,36 @@ Table of Contents:
 - Git ⭐
 - GitHub ⭐
 
-## Documentation
+## Documentation and Content
 
 - Markdown ⭐
-  - README.md
-  - Mermaid
+  - MDX
 
 ## Time Tracking
 
 - Clockify ⭐
+
+---
+
+# Design Stack
+
+## Sketch
+
+- [Excalidraw](https://excalidraw.com) ⭐
+
+## Diagram
+
+- [Whimsical](https://whimsical.com) ⭐
+- [Mermaid](https://mermaid.js.org)
+
+## UI and UX
+
+- Figma ⭐
+- Sketch
+  - Zeplin
+- InVision
+- UXPin
+- Marvel
 
 ---
 
@@ -150,6 +172,14 @@ Table of Contents:
 - tRPC
 - REST API
 - GraphQL
+
+## Content Layer
+
+For transforming the data into the content.
+
+- DIY
+- Contentlayer
+- Astro:Content + Zod
 
 ## Auth Layer
 
@@ -222,6 +252,7 @@ GraphQL:
   - `@tailwindcss/typography`
   - `@tailwindcss/forms`
   - `@tailwindcss/line-clamp`
+  - `@tailwindcss/nesting`
   - `tailwind-merge`
   - `tailwind-variants`
   - `tailwind-config-viewer`
@@ -567,6 +598,8 @@ Marketing:
   - [ ] `sitemap.xml`
   - [ ] `robots.txt`
   - [ ] OG image for social media
+  - [ ] Twitter metadata
+  - [ ] JSON-LD Structured data
 - [ ] Backend/Server/API/Database:
   - [ ] Model naming convention (singular vs plural)
   - [ ] Field/property case convention (camel vs snake)
