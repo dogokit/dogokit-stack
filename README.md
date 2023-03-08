@@ -2,15 +2,18 @@
 
 > 🐱 Short URL: https://a.catamyst.com/stack
 
-The opiniated stack list to build modern apps with web technologies. This is the simpler version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the complete list).
+The opiniated stack list to build modern apps with web technologies. This is the simpler version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the complete list). You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your technical evaluation and decision.
 
-THe main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required.
-
-You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your app development stack.
+The main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required.
 
 Main categories:
 
-- Stack List: For evaluation
+- Stack List: For technical evaluation
+  - Work Stack
+  - App Stack/Dependency
+  - Development Stack/Dependency
+  - Deployment Stack
+  - External Service Stack
 - References: For learning more
 - Checklist: For development
 
@@ -526,6 +529,7 @@ General:
 Transactional:
 
 - Mailjet ⭐: For cheapest transactional email service
+- Resend ⭐
 - Postmark
 - Sendgrid
 - Amazon SES
