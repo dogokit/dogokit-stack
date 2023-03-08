@@ -4,7 +4,7 @@
 
 The opiniated stack list to build modern apps with web technologies. This is the simpler version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the complete list).
 
-THe main criteria in choosing these that it must already been used for building real world apps especially with real teams. Every ⭐ indicated the recommendation, but keep in mind it doesn't mean that everything is required.
+THe main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required.
 
 You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your app development stack.
 
@@ -79,28 +79,35 @@ Table of Contents:
 
 ## Communication
 
-- Telegram ⭐
+- Telegram ⭐🔰
 - Twist
 - Slack
 
+## Note and Knowledge Base
+
+- Notion ⭐
+- Slab ⭐
+
 ## Project or Product Management
 
-- Linear ⭐
+- Linear ⭐🔰
 - Trello
 - Todoist
 
 ## Data Management
 
-- Airtable
+- Airtable ⭐
+- TypeForm
 
 ## Repository
 
-- Git ⭐
-- GitHub ⭐
+- Git ⭐🔰
+- GitHub ⭐🔰
+- GitLab
 
 ## Documentation and Content
 
-- Markdown ⭐
+- Markdown ⭐🔰
   - MDX
 
 ## Time Tracking
@@ -122,7 +129,7 @@ Table of Contents:
 
 ## UI and UX
 
-- Figma ⭐
+- Figma ⭐🔰
 - Sketch
   - Zeplin
 - InVision
@@ -135,24 +142,25 @@ Table of Contents:
 
 ## App Language/Platform/Runtime/Format
 
-- HTML ⭐
-- CSS ⭐
-- JavaScript ⭐
+- HTML ⭐🔰
+- CSS ⭐🔰
+- JavaScript ⭐🔰
+  - TypeScript ⭐🔰
   - JSON ⭐
-  - TypeScript ⭐
-- Node.js v19+ ⭐
+- Node.js v19+ ⭐🔰
 - Deno
 - Bun
 
 ## Package Manager
 
-- pnpm v7+ ⭐
+- pnpm v7+ ⭐🔰
 - npm v8+
 - yarn
+- @antfu/ni
 
 ## Full Stack Framework
 
-- Remix v1.14+ ⭐
+- Remix v1.14+ ⭐🔰
   - 📦 React, TypeScript, Prisma, Tailwind CSS, Remix Auth
 - Next.js v13+ ⭐
   - T3 Stack ⭐
@@ -162,7 +170,7 @@ Table of Contents:
 
 ## Frontend/Client-Side Framework/Library
 
-- React ⭐
+- React ⭐🔰
 - Solid
 - Svelte
 
@@ -183,24 +191,27 @@ For transforming the data into the content.
 
 ## Auth Layer
 
-- Remix Auth ⭐
+Functions/Services:
+
+- Remix Auth ⭐🔰
   - `remix-auth`
   - `remix-auth-form`
 - Auth.js ⭐
   - `next-auth`
-- Clerk
+- Clerk ⭐
   - `@clerk/remix`
   - `@clerk/nextjs`
 - Auth0
 
 Methods:
 
-- Cookie-based sessions ⭐
+- Cookie-based Sessions ⭐🔰
 - Email and Password ⭐
 - Passwordless with OTP
 - OAuth
   - GitHub
   - Google
+  - Twitter
 
 Security/Encryption/Encoding:
 
@@ -228,8 +239,8 @@ GraphQL:
 
 General:
 
-- Fetch API ⭐
-- Axios HTTP ⭐
+- Fetch API ⭐🔰
+- Axios HTTP ⭐🔰
 
 REST:
 
@@ -245,8 +256,7 @@ GraphQL:
 
 ## Styling
 
-- clsx ⭐
-- [Tailwind CSS](https://tailwindcss.com) ⭐
+- [Tailwind CSS](https://tailwindcss.com) ⭐🔰
   - [Tailwind UI](https://tailwindui.com)
   - `tailwindcss`
   - `@tailwindcss/typography`
@@ -259,13 +269,14 @@ GraphQL:
   - `tailwindcss-radix`
   - `tailwindcss-animate`
   - `tailwindcss-debug-screens`
+- clsx ⭐🔰
 - `class-variance-authority` (`joe-bell/cva`)
 - PostCSS
 - Autoprefixer
 
 ## Components
 
-- [Radix UI](https://radix-ui.com) ⭐
+- [Radix UI](https://radix-ui.com) ⭐🔰
   - [shadcn UI](https://ui.shadcn.com) (`shadcn/ui`)
     - [Chimera UI](https://chimera-ui.com)
 - [Headless UI](https://headlessui.com)
@@ -291,14 +302,19 @@ GraphQL:
 
 ## Data Validation
 
-- Zod ⭐
+- Zod ⭐🔰
   - `zod-form-data`
 
 ## Form
 
-- Remix Validated Form ⭐: For full stack form handling
+Framework Specific:
+
+- Remix Validated Form ⭐🔰: For full stack form handling
 - Remix Forms by Seasoned
   - `domain-funcions`
+
+Framework Agnostic:
+
 - HouseForm ⭐: For highly interactive client side form handling
 - React Hook Form (RHF)
   - `react-hook-form`
@@ -307,7 +323,7 @@ GraphQL:
 
 ## Complex State Management
 
-- Jotai
+- Jotai ⭐
 - Zustand
 - XState
 - Recoil
@@ -316,7 +332,7 @@ GraphQL:
 
 ## Database ORM
 
-- Prisma ORM ⭐: For modeling the data and connecting the database
+- Prisma ORM ⭐🔰: For modeling the data and connecting the database
   - `prisma`
   - `@prisma/client`
 - TypeORM
@@ -325,7 +341,7 @@ GraphQL:
 
 ## Database
 
-- MySQL on PlanetScale ⭐
+- MySQL on PlanetScale ⭐🔰
 - PostgreSQL on Neon
 - MongoDB on MongoDB Atlas
 
@@ -338,15 +354,15 @@ Remix:
 General:
 
 - `sleep-promise`: For a promise after a specified delay
-- Falso: For all the fake data
 - Invariant: For descriptive errors in development, but generic errors in production
   - `tiny-invariant`
+- Falso: For all the fake data
 
 Text/String:
 
-- `prettyjson`: For formatting JSON data in a coloured YAML-style, perfect for CLI output
 - `@sindresorhus/slugify`
 - Voca: For string manipulaton
+- `prettyjson`: For formatting JSON data in a coloured YAML-style, perfect for CLI output
 - `pluralize`
 - `country-code-lookup`
 - i18next
@@ -360,7 +376,7 @@ Number/Currency:
 
 Date:
 
-- Day.js
+- Day.js ⭐🔰
 - date-fns
 - Moment.js
 
@@ -368,12 +384,9 @@ File/Asset:
 
 - `pdfjs-dist`: For parsing and rendering PDFs
 
-Log:
-
-- Axiom
-
 Email:
 
+- [React Email](https://react.email) ⭐
 - Nodemailer
 
 ---
@@ -382,7 +395,7 @@ Email:
 
 ## Language Transpiler
 
-- TypeScript ⭐: For type safety
+- TypeScript ⭐🔰: For type safety
 - swc ⭐
 - Babel
 
@@ -397,18 +410,18 @@ These are important just to know the language behind the tools.
 
 - esbuild ⭐: For Remix default bundler
   - Vite: For client side only bundler
-- Turbopack: For Next.js future bundler
+- Turbopack ⭐: For Next.js future bundler
 - Webpack: For Next.js current bundler
 
 ## Repo Management
 
-- Turborepo
 - pnpm Workspace
+- Turborepo
 - Nx
 
 ## Code Formating
 
-- Pretier ⭐: For opiniated formatting
+- Pretier ⭐🔰: For opiniated formatting
   - `prettier-plugin-tailwindcss`
   - `IanVS/prettier-plugin-sort-imports`
 - Rome
@@ -416,7 +429,7 @@ These are important just to know the language behind the tools.
 
 ## Code Linting
 
-- ESLint ⭐: For enforcing JS/TS syntax rules
+- ESLint ⭐🔰: For enforcing JS/TS syntax rules
   - `eslint-config-next`
   - `eslint-config-prettier`
   - `eslint-config-turbo`
@@ -431,7 +444,7 @@ These are important just to know the language behind the tools.
 
 ## Testing
 
-- Vitest ⭐: For unit test
+- Vitest ⭐🔰: For unit test
 - Jest
 - testing-library ⭐: For unit test
 - Playwright ⭐: For end-to-end test
@@ -439,20 +452,21 @@ These are important just to know the language behind the tools.
 
 ## Dev Utility
 
-TypeScript:
-
-- `@total-typescript/ts-reset`: For improving types for common JavaScript AP
-
 Workflow:
 
-- Doppler ⭐: For team environment variable management
+- Doppler ⭐🔰: For team environment variable management
 - Kodiak: For pull request management
 - `npm-run-all`/`run-p`: For parallel scripts
 - `motdotla/dotenv`
 - Husky
 
+TypeScript:
+
+- `@total-typescript/ts-reset`: For improving types for common JavaScript AP
+
 General:
 
+- Pino
 - `bundle-wizard`
 - `@milahu/patch-package`
 
@@ -462,9 +476,9 @@ General:
 
 ## Frontend/Client Focused
 
-- Vercel ⭐: For full stack app deployment with frontend focus
+- Vercel ⭐🔰: For full stack app deployment with frontend focus
   - `vercel.json`
-- Netlify: For full stack app deployment with frontend focus
+- Netlify ⭐: For full stack app deployment with frontend focus
 
 ## Backend/Server Focused
 
@@ -472,10 +486,13 @@ General:
 - Render
 - Fly.io
 - Deno Deploy
+
+## Complex Infra Focused
+
 - Amazon Web Services (AWS)
-  - Amazon EC2
+  - Amazon Elastic Compute Cloud (EC2)
 - Google Cloud Platform (GCP)
-  - Google CE
+  - Google Compute Engine (GCE)
 
 ---
 
@@ -483,6 +500,8 @@ General:
 
 ## Analytics
 
+- Posthog ⭐
+- Axiom
 - Fathom
 - Plausible
 - Google Analytics
@@ -490,14 +509,14 @@ General:
 
 ## Multimedia/Image/Video
 
-- ImageKit ⭐: For easy image storage/hosting
+- ImageKit ⭐🔰: For easy image storage/hosting
   - `imagekitio-react`
 - Mux Video: For modern video hosting
 - bunny.net (Bunny CDN): For cheapesrt video storage/hosting/streaming
 
 ## Map
 
-- Mapbox
+- Mapbox ⭐
   - `mapbox-gl`
   - `react-map-gl`
 - Google Maps
@@ -508,15 +527,12 @@ Transactional:
 
 - Mailjet ⭐: For cheapest transactional email service
 - Postmark
+- Sendgrid
 - Amazon SES
 
 Marketing:
 
 - ConvertKit
-
-## Log
-
-- Pino
 
 ## CI/CD
 
@@ -534,7 +550,8 @@ Marketing:
 
 ## Template
 
-- [Rewinds](https://rewinds.mhaidarhanif.com)
+- [Rewinds - Remix Tailwind CSS starter kit](https://rewinds.mhaidarhanif.com)
+- [neorepo - Remix/Next.js production-ready starter kit](https://neorepo.com)
 - [SaasRock - The One-Man SaaS Framework](https://saasrock.com)
 - [MakerKit - SaaS Starter Kits based on React](https://makerkit.dev)
 
