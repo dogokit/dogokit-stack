@@ -8,18 +8,19 @@ The main criteria in choosing these that it must already been used for building 
 
 **Preferred core stack:**
 
-Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remix, Tailwind CSS, Radix UI, Prisma ORM, MySQL on PlanetScale, Vitest, Playwright, MSW, Vercel, Doppler, etc.
+- Core: React, Remix, Tailwind CSS, Prisma ORM, Vercel.
+- Complete: Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remix, Tailwind CSS, Radix UI, Prisma ORM, MySQL on PlanetScale, Vitest, Playwright, MSW, Vercel, Doppler, Bitwarden, etc.
 
 **Main categories:**
 
-- Stack List: For technical evaluation
+- Stack: For technical evaluation
   - Work Stack
   - App Stack/Dependency
   - Development Stack/Dependency
   - Deployment Stack
   - External Service Stack
 - References: For learning more
-- Checklist: For development
+- Checklist: For development decision
 
 **Table of contents:**
 
@@ -242,7 +243,7 @@ Methods:
 Security/Encryption/Encoding:
 
 - [bcrypt](https://example.com) ⭐
-- [JWT (JSON Web Token)](https://example.com)
+- [JWT (JSON Web Token)](https://jwt.io)
 
 ## Backend/Server-Side Framework/Library
 
@@ -271,41 +272,45 @@ General:
 
 REST:
 
-- TanStack Query ⭐
-- SWR
-- RTK Query
+- [TanStack Query](https://example.com) ⭐
+- [SWR](https://example.com)
+- [RTK Query](https://example.com)
 
 GraphQL:
 
-- urql ⭐
-- `graphql-request`
-- Apollo Client
+- [urql](https://example.com) ⭐
+- [`graphql-request`](https://example.com)
+- [Apollo Client](https://example.com)
 
 ## Styling
 
 - [Tailwind CSS](https://tailwindcss.com) ⭐🔰
   - [Tailwind UI](https://tailwindui.com)
-  - `tailwindcss`
-  - `@tailwindcss/typography`
-  - `@tailwindcss/forms`
-  - `@tailwindcss/line-clamp`
-  - `@tailwindcss/nesting`
-  - `tailwind-merge`
-  - `tailwind-variants`
-  - `tailwind-config-viewer`
-  - `tailwindcss-radix`
-  - `tailwindcss-animate`
-  - `tailwindcss-debug-screens`
-- clsx ⭐🔰
-- `class-variance-authority` (`joe-bell/cva`)
-- PostCSS
-- Autoprefixer
+  - [`tailwindcss`](https://www.npmjs.com/package/tailwindcss)
+  - [`@tailwindcss/typography`](https://www.npmjs.com/package/@tailwindcss/typography)
+  - [`@tailwindcss/forms`](https://www.npmjs.com/package/@tailwindcss/forms)
+  - [`@tailwindcss/line-clamp`](https://www.npmjs.com/package/@tailwindcss/line-clamp)
+  - [`@tailwindcss/nesting`](https://www.npmjs.com/package/@tailwindcss/nesting)
+  - [`tailwindcss-radix`](https://www.npmjs.com/package/tailwindcss-radix)
+  - [`tailwindcss-animate`](https://www.npmjs.com/package/tailwindcss-animate)
+  - [`tailwindcss-debug-screens`](https://www.npmjs.com/package/tailwindcss-debug-screens)
+  - [`tailwind-merge`](https://www.npmjs.com/package/tailwind-merge)
+  - [`tailwind-variants`](https://www.npmjs.com/package/tailwind-variants)
+  - [`tailwind-config-viewer`](https://www.npmjs.com/package/tailwind-config-viewer)
+- [`clsx`](https://www.npmjs.com/package/clsx) ⭐🔰: For constructing `className` strings conditionally
+  - [`lukeed/clsx`](https://github.com/lukeed/clsx)
+- [`cva`](https://cva.style): For creating component variants (Class Variance Authority)
+  - [`class-variance-authority`](https://www.npmjs.com/package/class-variance-authority):
+  - [`joe-bell/cva`](https://github.com/joe-bell/cva)
+- [PostCSS](https://example.com)
+- [Autoprefixer](https://example.com)
 
 ## Components
 
-- [Radix UI](https://radix-ui.com) ⭐🔰
-  - [shadcn UI](https://ui.shadcn.com) (`shadcn/ui`)
-    - [Chimera UI](https://chimera-ui.com)
+- [Radix UI](https://radix-ui.com) ⭐🔰: For the most complete unstyled UI components
+  - [shadcn UI](https://ui.shadcn.com): For ready to use UI components made of Radix UI and Tailwind CSS
+    - [`shadcn/ui`](https://github.com/shadcn/ui)
+    - [Chimera UI](https://chimera-ui.com): For installable shadcn UI components
 - [Headless UI](https://headlessui.com)
 - [Ariakit](https://example.com)
 - [Downshift](https://example.com)
@@ -591,67 +596,67 @@ Marketing:
 
 ## Ideas
 
-- [ ](https://example.com) Website
-  - [ ](https://example.com) Personal Website
-  - [ ](https://example.com) Company Profile
-  - [ ](https://example.com) Organization Profile
-  - [ ](https://example.com) School Portal
-  - [ ](https://example.com) Government Portal
-  - [ ](https://example.com) Community Portal
-- [ ](https://example.com) Application
-  - [ ](https://example.com) Content Management System (CMS)
-  - [ ](https://example.com) Learning Management System (LMS)
-  - [ ](https://example.com) Information and Encyclopedia
-  - [ ](https://example.com) News and Magazine
-  - [ ](https://example.com) Writing and Publication
-  - [ ](https://example.com) Work and Productivity
-  - [ ](https://example.com) Contacts and Address Book
-  - [ ](https://example.com) Social Media and Event
-  - [ ](https://example.com) Note-Taking and Research
-  - [ ](https://example.com) Multimedia Streaming
-  - [ ](https://example.com) Cooking and Culinary
-  - [ ](https://example.com) Commerce and Shopping
-  - [ ](https://example.com) Forum and Discussion
-  - [ ](https://example.com) Jobs and Hiring
-  - [ ](https://example.com) Health and Fitness Tracker
-  - [ ](https://example.com) Personal Development
-  - [ ](https://example.com) Places and Exploration
-  - [ ](https://example.com) Travel and Accommodation
-  - [ ](https://example.com) Property and Housing
-  - [ ](https://example.com) Directory and List
-  - [ ](https://example.com) Software as a Service (SaaS)
+- [ ] Website
+  - [ ] Personal Website
+  - [ ] Company Profile
+  - [ ] Organization Profile
+  - [ ] School Portal
+  - [ ] Government Portal
+  - [ ] Community Portal
+- [ ] Application
+  - [ ] Content Management System (CMS)
+  - [ ] Learning Management System (LMS)
+  - [ ] Information and Encyclopedia
+  - [ ] News and Magazine
+  - [ ] Writing and Publication
+  - [ ] Work and Productivity
+  - [ ] Contacts and Address Book
+  - [ ] Social Media and Event
+  - [ ] Note-Taking and Research
+  - [ ] Multimedia Streaming
+  - [ ] Cooking and Culinary
+  - [ ] Commerce and Shopping
+  - [ ] Forum and Discussion
+  - [ ] Jobs and Hiring
+  - [ ] Health and Fitness Tracker
+  - [ ] Personal Development
+  - [ ] Places and Exploration
+  - [ ] Travel and Accommodation
+  - [ ] Property and Housing
+  - [ ] Directory and List
+  - [ ] Software as a Service (SaaS)
 
 ## Todos
 
-- [ ](https://example.com) Stack:
-  - [ ](https://example.com) Work Stack
-  - [ ](https://example.com) App Stack/Dependency
-  - [ ](https://example.com) Development Stack/Dependency
-  - [ ](https://example.com) Deployment Stack
-  - [ ](https://example.com) External Service Stack
-- [ ](https://example.com) General:
-  - [ ](https://example.com) Format and lint rules
-  - [ ](https://example.com) Function vs arrow function
-  - [ ](https://example.com) Type naming convention
-- [ ](https://example.com) Frontend/Client/Website:
-  - [ ](https://example.com) Landing page/route
-    - [ ](https://example.com) Header and Navigation
-    - [ ](https://example.com) Main
-    - [ ](https://example.com) Footer
-  - [ ](https://example.com) 404 Not Found page/route
-  - [ ](https://example.com) Splat (`*`) routes
-  - [ ](https://example.com) Favicons
-  - [ ](https://example.com) SEO metadata
-    - [ ](https://example.com) `charset`
-    - [ ](https://example.com) `sitemap.xml`
-    - [ ](https://example.com) `robots.txt`
-  - [ ](https://example.com) OG image for social media
-  - [ ](https://example.com) Twitter metadata
-  - [ ](https://example.com) JSON-LD Structured data
-  - [ ](https://example.com) Analytics
-- [ ](https://example.com) Backend/Server/API/Database:
-  - [ ](https://example.com) Model naming convention (singular vs plural)
-  - [ ](https://example.com) Field/property case convention (camel vs snake)
+- [ ] Stack:
+  - [ ] Work Stack
+  - [ ] App Stack/Dependency
+  - [ ] Development Stack/Dependency
+  - [ ] Deployment Stack
+  - [ ] External Service Stack
+- [ ] General:
+  - [ ] Format and lint rules
+  - [ ] Function vs arrow function
+  - [ ] Type naming convention
+- [ ] Frontend/Client/Website:
+  - [ ] Landing page/route
+    - [ ] Header and Navigation
+    - [ ] Main
+    - [ ] Footer
+  - [ ] 404 Not Found page/route
+  - [ ] Splat (`*`) routes
+  - [ ] Favicons
+  - [ ] SEO metadata
+    - [ ] `charset`
+    - [ ] `sitemap.xml`
+    - [ ] `robots.txt`
+  - [ ] OG image for social media
+  - [ ] Twitter metadata
+  - [ ] JSON-LD Structured data
+  - [ ] Analytics
+- [ ] Backend/Server/API/Database:
+  - [ ] Model naming convention (singular vs plural)
+  - [ ] Field/property case convention (camel vs snake)
 
 ---
 
