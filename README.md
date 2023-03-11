@@ -6,7 +6,11 @@ The opiniated stack list to build modern apps with web technologies. This is the
 
 The main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required.
 
-Main categories:
+**Preferred core stack:**
+
+Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remix, Tailwind CSS, Radix UI, Prisma ORM, MySQL on PlanetScale, Vitest, Playwright, MSW, Vercel, Doppler, etc.
+
+**Main categories:**
 
 - Stack List: For technical evaluation
   - Work Stack
@@ -17,16 +21,21 @@ Main categories:
 - References: For learning more
 - Checklist: For development
 
-Table of Contents:
+**Table of contents:**
 
 - [Catamyst Stack](#catamyst-stack)
 - [Work Stack](#work-stack)
   - [Communication](#communication)
+  - [Note and Knowledge Base](#note-and-knowledge-base)
   - [Project or Product Management](#project-or-product-management)
   - [Data Management](#data-management)
   - [Repository](#repository)
   - [Documentation and Content](#documentation-and-content)
   - [Time Tracking](#time-tracking)
+- [Design Stack](#design-stack)
+  - [Sketch](#sketch)
+  - [Diagram](#diagram)
+  - [UI and UX](#ui-and-ux)
 - [App Stack/Dependency](#app-stackdependency)
   - [App Language/Platform/Runtime/Format](#app-languageplatformruntimeformat)
   - [Package Manager](#package-manager)
@@ -59,12 +68,12 @@ Table of Contents:
 - [Deployment Stack](#deployment-stack)
   - [Frontend/Client Focused](#frontendclient-focused)
   - [Backend/Server Focused](#backendserver-focused)
+  - [Complex Infra Focused](#complex-infra-focused)
 - [External Service Stack](#external-service-stack)
   - [Analytics](#analytics)
   - [Multimedia/Image/Video](#multimediaimagevideo)
   - [Map](#map)
   - [Mail](#mail)
-  - [Log](#log)
   - [CI/CD](#cicd)
 - [References](#references)
   - [Template](#template)
