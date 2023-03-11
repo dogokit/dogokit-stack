@@ -25,13 +25,14 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
 
 - [Catamyst Stack](#catamyst-stack)
 - [Work Stack](#work-stack)
+  - [Browser](#browser)
   - [Communication](#communication)
   - [Note and Knowledge Base](#note-and-knowledge-base)
   - [Project or Product Management](#project-or-product-management)
-  - [Data Management](#data-management)
-  - [Repository](#repository)
+  - [Survey Form and Data Management](#survey-form-and-data-management)
   - [Documentation and Content](#documentation-and-content)
   - [Time Tracking](#time-tracking)
+  - [Repository](#repository)
 - [Design Stack](#design-stack)
   - [Sketch](#sketch)
   - [Diagram](#diagram)
@@ -51,7 +52,7 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
   - [Icons](#icons)
   - [Router/Routing](#routerrouting)
   - [Data Validation](#data-validation)
-  - [Form](#form)
+  - [Form Handling](#form-handling)
   - [Complex State Management](#complex-state-management)
   - [Database ORM](#database-orm)
   - [Database](#database)
@@ -74,7 +75,7 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
   - [Multimedia/Image/Video](#multimediaimagevideo)
   - [Map](#map)
   - [Mail](#mail)
-  - [CI/CD](#cicd)
+  - [CI/CD (Continuous Integration/Deployment)](#cicd-continuous-integrationdeployment)
 - [References](#references)
   - [Template](#template)
 - [Checklist](#checklist)
@@ -89,42 +90,54 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
 
 # Work Stack
 
+## Browser
+
+- [Arc](https://example.com) ⭐🔰
+- [Chromium](https://example.com) ⭐🔰
+- [Google Chrome](https://example.com) ⭐
+- [Mozilla Firefox](https://example.com) ⭐
+- [Apple Safari](https://example.com)
+
 ## Communication
 
-- Telegram ⭐🔰
-- Twist
-- Slack
+- [Telegram](https://example.com) ⭐🔰
+- [Twist](https://example.com)
+- [Slack](https://example.com)
+- [Discord](https://example.com)
 
 ## Note and Knowledge Base
 
-- Notion ⭐
-- Slab ⭐
+- [Notion](https://example.com) ⭐
+- [Slab](https://example.com) ⭐
 
 ## Project or Product Management
 
-- Linear ⭐🔰
-- Trello
-- Todoist
+- [Linear](https://example.com) ⭐🔰
+- [Trello](https://example.com)
+- [Todoist](https://example.com)
+- [Asana](https://example.com)
 
-## Data Management
+## Survey Form and Data Management
 
-- Airtable ⭐
-- TypeForm
-
-## Repository
-
-- Git ⭐🔰
-- GitHub ⭐🔰
-- GitLab
+- [Airtable](https://example.com) ⭐🔰
+- [Typeform](https://example.com)
+- [Google Forms](https://example.com) + [Google Sheets](https://example.com)
 
 ## Documentation and Content
 
-- Markdown ⭐🔰
-  - MDX
+- [Markdown](https://example.com) ⭐🔰
+  - [MDX](https://example.com)
 
 ## Time Tracking
 
-- Clockify ⭐
+- [Clockify](https://example.com) ⭐
+
+## Repository
+
+- [Git](https://example.com) ⭐🔰
+- [GitHub](https://example.com) ⭐🔰
+  - [GitHub Classroom](https://example.com)
+- [GitLab](https://example.com)
 
 ---
 
@@ -141,12 +154,13 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
 
 ## UI and UX
 
-- Figma ⭐🔰
-- Sketch
-  - Zeplin
-- InVision
-- UXPin
-- Marvel
+- [Figma](https://example.com) ⭐🔰
+- [Framer](https://example.com)
+- [Sketch](https://example.com)
+  - [Zeplin](https://example.com)
+- [InVision](https://example.com)
+- [UXPin](https://example.com)
+- [Marvel](https://example.com)
 
 ---
 
@@ -154,81 +168,81 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
 
 ## App Language/Platform/Runtime/Format
 
-- HTML ⭐🔰
-- CSS ⭐🔰
-- JavaScript ⭐🔰
-  - TypeScript ⭐🔰
-  - JSON ⭐
-- Node.js v19+ ⭐🔰
-- Deno
-- Bun
+- [HTML](https://example.com) ⭐🔰
+- [CSS](https://example.com) ⭐🔰
+- [JavaScript](https://example.com) ⭐🔰
+  - [TypeScript](https://example.com) ⭐🔰
+  - [JSON](https://example.com) ⭐
+- [Node.js](https://example.com) ⭐🔰
+- [Deno](https://example.com)
+- [Bun](https://example.com)
 
 ## Package Manager
 
-- pnpm v7+ ⭐🔰
-- npm v8+
-- yarn
-- @antfu/ni
+- [pnpm](https://example.com) ⭐🔰
+- [npm](https://example.com)
+- [yarn](https://example.com)
+- [@antfu/ni](https://example.com)
 
 ## Full Stack Framework
 
-- Remix v1.14+ ⭐🔰
+- [Remix](https://example.com) ⭐🔰
   - 📦 React, TypeScript, Prisma, Tailwind CSS, Remix Auth
-- Next.js v13+ ⭐
-  - T3 Stack ⭐
+- [Next.js](https://example.com) ⭐
+  - [T3 Stack](https://example.com) ⭐
     - 📦 Next.js, TypeScript, tRPC, Prisma, Tailwind CSS, NextAuth.js
-- SolidStart
-- SvelteKit
+- [SolidStart](https://example.com)
+- [SvelteKit](https://example.com)
 
 ## Frontend/Client-Side Framework/Library
 
-- React ⭐🔰
-- Solid
-- Svelte
+- [React](https://example.com) ⭐🔰
+- [Solid](https://example.com)
+- [Svelte](https://example.com)
 
 ## API Layer
 
 - Full Stack Framework's Approach ⭐
-- tRPC
-- REST API
-- GraphQL
+- [tRPC](https://example.com)
+- [REST API](https://example.com)
+- [GraphQL](https://example.com)
 
 ## Content Layer
 
 For transforming the data into the content.
 
-- DIY
-- Contentlayer
-- Astro:Content + Zod
+- DIY: Just create it ourself
+- [Contentlayer](https://example.com)
+- [Astro:Content](https://example.com)
 
 ## Auth Layer
 
 Functions/Services:
 
-- Remix Auth ⭐🔰
-  - `remix-auth`
-  - `remix-auth-form`
-- Auth.js ⭐
-  - `next-auth`
-- Clerk ⭐
-  - `@clerk/remix`
-  - `@clerk/nextjs`
-- Auth0
+- [Remix Auth](https://example.com) ⭐🔰
+  - [`remix-auth`](https://example.com)
+  - [`remix-auth-form`](https://example.com)
+- [Auth.js](https://example.com) ⭐
+  - [`next-auth`](https://example.com)
+- [Clerk](https://example.com) ⭐: For setup auth the fastest way
+  - [`@clerk/remix`](https://example.com)
+  - [`@clerk/nextjs`](https://example.com)
+- [Auth0](https://example.com)
 
 Methods:
 
 - Cookie-based Sessions ⭐🔰
 - Email and Password ⭐
 - Passwordless with OTP
-- OAuth
-  - GitHub
-  - Google
-  - Twitter
+- [OAuth](https://example.com)
+  - [GitHub](https://example.com)
+  - [Google](https://example.com)
+  - [Twitter](https://example.com)
 
 Security/Encryption/Encoding:
 
-- bcrypt ⭐
-- JWT (JSON Web Token)
+- [bcrypt](https://example.com) ⭐
+- [JWT (JSON Web Token)](https://example.com)
 
 ## Backend/Server-Side Framework/Library
 
@@ -236,23 +250,23 @@ If using Full Stack Framework's Approach, these might not needed.
 
 REST:
 
-- NestJS ⭐
-- Express
-- Fastify
+- [NestJS] ⭐
+- [Express]
+- [Fastify]
 
 GraphQL:
 
-- GraphQL Yoga ⭐
-  - Envelop
-- Pothos GraphQL Schema
-- Apollo GraphQL Server
+- [GraphQL Yoga](https://example.com) ⭐
+  - [Envelop](https://example.com)
+- [Pothos GraphQL Schema](https://example.com)
+- [Apollo GraphQL Server](https://example.com)
 
 ## Data Fething
 
 General:
 
-- Fetch API ⭐🔰
-- Axios HTTP ⭐🔰
+- [Fetch API](https://example.com) ⭐🔰
+- [Axios HTTP](https://example.com) ⭐🔰
 
 REST:
 
@@ -292,114 +306,114 @@ GraphQL:
   - [shadcn UI](https://ui.shadcn.com) (`shadcn/ui`)
     - [Chimera UI](https://chimera-ui.com)
 - [Headless UI](https://headlessui.com)
-- Ariakit
-- Downshift
-- React Wrap Balancer
-- NProgress ⭐: For slim progress bar
+- [Ariakit](https://example.com)
+- [Downshift](https://example.com)
+- [React Wrap Balancer](https://example.com)
+- [NProgress](https://example.com) ⭐: For slim progress bar
 
 ## Icons
 
 - [Lucide](https://lucide.dev) ⭐
-  - `lucide-react`
+  - [`lucide-react`](https://example.com)
 - [Heroicons](https://heroicons.com)
-  - `@heroicons/react`
-- React Icons
-  - `react-icons`
+  - [`@heroicons/react`](https://example.com)
+- [React Icons](https://example.com)
+  - [`react-icons`](https://example.com)
 
 ## Router/Routing
 
-- React Router v6 ⭐
-- Next Router
-- TanStack Router
+- [React Router](https://example.com) ⭐
+- [Next Router](https://example.com)
+- [TanStack Router](https://example.com)
 
 ## Data Validation
 
-- Zod ⭐🔰
-  - `zod-form-data`
+- [Zod](https://example.com) ⭐🔰
+  - [`zod-form-data`](https://example.com)
 
-## Form
+## Form Handling
 
 Framework Specific:
 
-- Remix Validated Form ⭐🔰: For full stack form handling
-- Remix Forms by Seasoned
-  - `domain-funcions`
+- [Remix Validated Form](https://example.com) ⭐🔰: For full stack form handling
+- [Remix Forms by Seasoned](https://example.com)
+  - [`domain-funcions`](https://example.com)
 
 Framework Agnostic:
 
-- HouseForm ⭐: For highly interactive client side form handling
-- React Hook Form (RHF)
-  - `react-hook-form`
-  - `@hookform/resolvers`
-- Formik
+- [HouseForm](https://example.com) ⭐: For highly interactive client side form handling
+- [React Hook Form (RHF)](https://example.com)
+  - [`react-hook-form`](https://example.com)
+  - [`@hookform/resolvers`](https://example.com)
+- [Formik](https://example.com)
 
 ## Complex State Management
 
-- Jotai ⭐
-- Zustand
-- XState
-- Recoil
-- Redux
-  - Redux Toolkit (RTK)
+- [Jotai](https://example.com) ⭐
+- [Zustand](https://example.com)
+- [XState](https://example.com)
+- [Recoil](https://example.com)
+- [Redux](https://example.com)
+  - [Redux Toolkit (RTK)](https://example.com)
 
 ## Database ORM
 
-- Prisma ORM ⭐🔰: For modeling the data and connecting the database
-  - `prisma`
-  - `@prisma/client`
-- TypeORM
-- Sequelize
-- Mongoose
+- [Prisma ORM](https://example.com) ⭐🔰: For modeling the data and connecting the database
+  - [`prisma`](https://example.com)
+  - [`@prisma/client`](https://example.com)
+- [TypeORM](https://example.com)
+- [Sequelize](https://example.com)
+- [Mongoose](https://example.com)
 
 ## Database
 
-- MySQL on PlanetScale ⭐🔰
-- PostgreSQL on Neon
-- MongoDB on MongoDB Atlas
+- [MySQL](https://example.com) on [PlanetScale](https://example.com) ⭐🔰
+- [PostgreSQL](https://example.com) on [Neon](https://example.com) or [Supabase](https://example.com)
+- [MongoDB](https://example.com) on [MongoDB Atlas](https://example.com)
 
 ## App Utility
 
 Remix:
 
-- `remix-utils` ⭐
+- [`remix-utils`](https://example.com) ⭐
 
 General:
 
-- `sleep-promise`: For a promise after a specified delay
+- [`sleep-promise`]: For a promise after a specified delay
 - Invariant: For descriptive errors in development, but generic errors in production
-  - `tiny-invariant`
-- Falso: For all the fake data
+  - [`tiny-invariant`](https://example.com)
+- [Falso](https://example.com): For all the fake data
 
 Text/String:
 
-- `@sindresorhus/slugify`
-- Voca: For string manipulaton
-- `prettyjson`: For formatting JSON data in a coloured YAML-style, perfect for CLI output
-- `pluralize`
-- `country-code-lookup`
-- i18next
-  - `remix-i18next`
-  - `next-i18next`
+- [`@sindresorhus/slugify`](https://example.com)
+- [Voca](https://example.com): For string manipulaton
+- [`prettyjson`](https://example.com): For formatting JSON data in a coloured YAML-style, perfect for CLI output
+- [`pluralize`](https://example.com)
+- [`country-code-lookup`](https://example.com)
+- [i18next](https://example.com)
+  - [`remix-i18next`](https://example.com)
+  - [`next-i18next`](https://example.com)
 
 Number/Currency:
 
-- `numeral`: For formatting and manipulating numbers
-- currency.js
+- [`numeral`](https://example.com): For formatting and manipulating numbers
+- [currency.js](https://example.com)
 
 Date:
 
-- Day.js ⭐🔰
-- date-fns
-- Moment.js
+- [Day.js](https://example.com) ⭐🔰
+- [date-fns](https://example.com)
+- [Moment.js](https://example.com)
 
 File/Asset:
 
-- `pdfjs-dist`: For parsing and rendering PDFs
+- [`pdfjs-dist`](https://example.com): For parsing and rendering PDFs
 
 Email:
 
 - [React Email](https://react.email) ⭐
-- Nodemailer
+- [Nodemailer](https://example.com)
 
 ---
 
@@ -407,80 +421,80 @@ Email:
 
 ## Language Transpiler
 
-- TypeScript ⭐🔰: For type safety
-- swc ⭐
-- Babel
+- [TypeScript](https://example.com) ⭐🔰: For type safety
+- [swc](https://example.com) ⭐
+- [Babel](https://example.com)
 
 ## Tooling Language/Platform/Runtime
 
 These are important just to know the language behind the tools.
 
-- Golang → esbuild, Vite
-- Rust → swc, Turbopack
+- [Golang](https://example.com) → esbuild, Vite
+- [Rust](https://example.com) → swc, Turbopack
 
 ## Project Bundler
 
-- esbuild ⭐: For Remix default bundler
-  - Vite: For client side only bundler
-- Turbopack ⭐: For Next.js future bundler
-- Webpack: For Next.js current bundler
+- [esbuild](https://example.com) ⭐: For Remix default bundler
+  - [Vite](https://example.com) ⭐: For client side only bundler
+- [Turbopack](https://example.com) ⭐: For Next.js future bundler
+- [Webpack](https://example.com): For Next.js current bundler
 
 ## Repo Management
 
-- pnpm Workspace
-- Turborepo
-- Nx
+- [pnpm Workspace](https://example.com)
+- [Turborepo](https://example.com)
+- [Nx](https://example.com)
 
 ## Code Formating
 
-- Pretier ⭐🔰: For opiniated formatting
-  - `prettier-plugin-tailwindcss`
-  - `IanVS/prettier-plugin-sort-imports`
-- Rome
-- EditorConfig
+- [Pretier](https://example.com) ⭐🔰: For opiniated formatting
+  - [`prettier-plugin-tailwindcss`](https://example.com)
+  - [`IanVS/prettier-plugin-sort-imports`](https://example.com)
+- [Rome](https://example.com)
+- [EditorConfig](https://example.com)
 
 ## Code Linting
 
-- ESLint ⭐🔰: For enforcing JS/TS syntax rules
-  - `eslint-config-next`
-  - `eslint-config-prettier`
-  - `eslint-config-turbo`
-  - `eslint-plugin-react`
-  - `eslint-plugin-tailwindcs`
-- stylelint ⭐: For enforcing CSS syntax rules
-- ls-lint
-- commitlint
-  - `@commitlint/cli`
-  - `@commitlint/config-conventional`
-- lint-staged
+- [ESLint](https://example.com) ⭐🔰: For enforcing JS/TS syntax rules
+  - [`eslint-config-next`](https://example.com)
+  - [`eslint-config-prettier`](https://example.com)
+  - [`eslint-config-turbo`](https://example.com)
+  - [`eslint-plugin-react`](https://example.com)
+  - [`eslint-plugin-tailwindcs`](https://example.com)
+- [stylelint](https://example.com) ⭐: For enforcing CSS syntax rules
+- [ls-lint](https://example.com)
+- [commitlint](https://example.com)
+  - [`@commitlint/cli`](https://example.com)
+  - [`@commitlint/config-conventional`](https://example.com)
+- [lint-staged](https://example.com)
 
 ## Testing
 
-- Vitest ⭐🔰: For unit test
-- Jest
-- testing-library ⭐: For unit test
-- Playwright ⭐: For end-to-end test
-- MSW ⭐: For mock service test
+- [Vitest](https://example.com) ⭐🔰: For unit test
+- [Jest](https://example.com)
+- [testing-library](https://example.com) ⭐: For unit test
+- [Playwright](https://example.com) ⭐: For end-to-end test
+- [MSW](https://example.com) ⭐: For mock service test
 
 ## Dev Utility
 
 Workflow:
 
-- Doppler ⭐🔰: For team environment variable management
-- Kodiak: For pull request management
-- `npm-run-all`/`run-p`: For parallel scripts
-- `motdotla/dotenv`
-- Husky
+- [Bitwarden](https://example.com)⭐🔰: For any credential management
+- [Doppler](https://example.com) ⭐🔰: For app environment variable management
+- [Kodiak]: For pull request management
+- [`npm-run-all`]/`run-p`: For parallel scripts
+- [`motdotla/dotenv`]
 
 TypeScript:
 
-- `@total-typescript/ts-reset`: For improving types for common JavaScript AP
+- [`@total-typescript/ts-reset`]: For improving types for common JavaScript AP
 
-General:
+Extra:
 
-- Pino
-- `bundle-wizard`
-- `@milahu/patch-package`
+- [Pino]: For simple logging
+- [`bundle-wizard`]: For evaluating bundle size
+- [`@milahu/patch-package`]: For patching node modules
 
 ---
 
@@ -488,23 +502,23 @@ General:
 
 ## Frontend/Client Focused
 
-- Vercel ⭐🔰: For full stack app deployment with frontend focus
-  - `vercel.json`
-- Netlify ⭐: For full stack app deployment with frontend focus
+- [Vercel](https://example.com) ⭐🔰: For full stack app deployment with frontend focus
+  - [`vercel.json`](https://example.com)
+- [Netlify](https://example.com) ⭐: For full stack app deployment with frontend focus
 
 ## Backend/Server Focused
 
-- Railway.app ⭐: For full stack app deployment with all focus
-- Render
-- Fly.io
-- Deno Deploy
+- [Railway.app](https://example.com) ⭐: For full stack app deployment with all focus
+- [Render](https://example.com)
+- [Fly.io](https://example.com)
+- [Deno Deploy](https://example.com)
 
 ## Complex Infra Focused
 
-- Amazon Web Services (AWS)
-  - Amazon Elastic Compute Cloud (EC2)
-- Google Cloud Platform (GCP)
-  - Google Compute Engine (GCE)
+- [Amazon Web Services (AWS)](https://example.com)
+  - [Amazon Elastic Compute Cloud (EC2)](https://example.com)
+- [Google Cloud Platform (GCP)](https://example.com)
+  - [Google Compute Engine (GCE)](https://example.com)
 
 ---
 
@@ -512,46 +526,48 @@ General:
 
 ## Analytics
 
-- Posthog ⭐
-- Axiom
-- Fathom
-- Plausible
-- Google Analytics
-- Cloudflare Analytics
+- [Posthog](https://example.com) ⭐
+- [Cloudflare Analytics](https://example.com) ⭐
+- [Axiom](https://example.com)
+- [Fathom](https://example.com)
+- [Plausible](https://example.com)
+- [Google Analytics](https://example.com)
 
 ## Multimedia/Image/Video
 
-- ImageKit ⭐🔰: For easy image storage/hosting
-  - `imagekitio-react`
-- Mux Video: For modern video hosting
-- bunny.net (Bunny CDN): For cheapesrt video storage/hosting/streaming
+- [ImageKit](https://example.com) ⭐🔰: For easy image storage/hosting
+  - [`imagekitio-react`](https://example.com)
+- [Mux Video](https://example.com): For modern video hosting
+- [bunny.net (Bunny CDN)](https://example.com): For cheapesrt video storage/hosting/streaming
 
 ## Map
 
-- Mapbox ⭐
-  - `mapbox-gl`
-  - `react-map-gl`
-- Google Maps
+- [Mapbox](https://example.com) ⭐
+  - [`mapbox-gl`](https://example.com)
+  - [`react-map-gl`](https://example.com)
+- [Google Maps](https://example.com)
 
 ## Mail
 
 Transactional:
 
-- Mailjet ⭐: For cheapest transactional email service
-- Resend ⭐
-- Postmark
-- Sendgrid
-- Amazon SES
+- [Mailjet](https://example.com) ⭐🔰: For cheapest transactional email service
+- [Resend](https://example.com) ⭐
+- [Postmark](https://example.com) ⭐
+- [Sendgrid](https://example.com)
+- [Amazon SES](https://example.com)
 
 Marketing:
 
-- ConvertKit
+- [ConvertKit](https://example.com) ⭐🔰
+- [Bento](https://example.com) ⭐
+- [Substack](https://example.com)
 
-## CI/CD
+## CI/CD (Continuous Integration/Deployment)
 
-- GitHub Actions ⭐: For easy CI/CD on GitHub
-- GitLab CI: For easy CI/CD on GitLab
-- Circle CI
+- [GitHub Actions](https://example.com) ⭐: For easy CI/CD on GitHub
+- [GitLab CI](https://example.com): For easy CI/CD on GitLab
+- [Circle CI](https://example.com)
 
 ---
 
@@ -574,65 +590,67 @@ Marketing:
 
 ## Ideas
 
-- [ ] Website
-  - [ ] Personal Website
-  - [ ] Company Profile
-  - [ ] Organization Profile
-  - [ ] School Portal
-  - [ ] Government Portal
-  - [ ] Community Portal
-- [ ] Application
-  - [ ] Content Management System (CMS)
-  - [ ] Learning Management System (LMS)
-  - [ ] Information and Encyclopedia
-  - [ ] News and Magazine
-  - [ ] Writing and Publication
-  - [ ] Work and Productivity
-  - [ ] Contacts and Address Book
-  - [ ] Social Media and Event
-  - [ ] Note-Taking and Research
-  - [ ] Multimedia Streaming
-  - [ ] Cooking and Culinary
-  - [ ] Commerce and Shopping
-  - [ ] Forum and Discussion
-  - [ ] Jobs and Hiring
-  - [ ] Health and Fitness Tracker
-  - [ ] Personal Development
-  - [ ] Places and Exploration
-  - [ ] Travel and Accommodation
-  - [ ] Property and Housing
-  - [ ] Directory and List
-  - [ ] Software as a Service (SaaS)
+- [ ](https://example.com) Website
+  - [ ](https://example.com) Personal Website
+  - [ ](https://example.com) Company Profile
+  - [ ](https://example.com) Organization Profile
+  - [ ](https://example.com) School Portal
+  - [ ](https://example.com) Government Portal
+  - [ ](https://example.com) Community Portal
+- [ ](https://example.com) Application
+  - [ ](https://example.com) Content Management System (CMS)
+  - [ ](https://example.com) Learning Management System (LMS)
+  - [ ](https://example.com) Information and Encyclopedia
+  - [ ](https://example.com) News and Magazine
+  - [ ](https://example.com) Writing and Publication
+  - [ ](https://example.com) Work and Productivity
+  - [ ](https://example.com) Contacts and Address Book
+  - [ ](https://example.com) Social Media and Event
+  - [ ](https://example.com) Note-Taking and Research
+  - [ ](https://example.com) Multimedia Streaming
+  - [ ](https://example.com) Cooking and Culinary
+  - [ ](https://example.com) Commerce and Shopping
+  - [ ](https://example.com) Forum and Discussion
+  - [ ](https://example.com) Jobs and Hiring
+  - [ ](https://example.com) Health and Fitness Tracker
+  - [ ](https://example.com) Personal Development
+  - [ ](https://example.com) Places and Exploration
+  - [ ](https://example.com) Travel and Accommodation
+  - [ ](https://example.com) Property and Housing
+  - [ ](https://example.com) Directory and List
+  - [ ](https://example.com) Software as a Service (SaaS)
 
 ## Todos
 
-- [ ] Stack:
-  - [ ] Work Stack
-  - [ ] App Stack/Dependency
-  - [ ] Development Stack/Dependency
-  - [ ] Deployment Stack
-  - [ ] External Service Stack
-- [ ] General:
-  - [ ] Format and lint rules
-  - [ ] Function vs arrow function
-  - [ ] Type naming convention
-- [ ] Frontend/Client/Website:
-  - [ ] Landing page/route
-    - [ ] Header and Navigation
-    - [ ] Main
-    - [ ] Footer
-  - [ ] 404 Not Found page/route
-  - [ ] Splat (`*`) routes
-  - [ ] Analytics
-  - [ ] SEO metadata
-  - [ ] `sitemap.xml`
-  - [ ] `robots.txt`
-  - [ ] OG image for social media
-  - [ ] Twitter metadata
-  - [ ] JSON-LD Structured data
-- [ ] Backend/Server/API/Database:
-  - [ ] Model naming convention (singular vs plural)
-  - [ ] Field/property case convention (camel vs snake)
+- [ ](https://example.com) Stack:
+  - [ ](https://example.com) Work Stack
+  - [ ](https://example.com) App Stack/Dependency
+  - [ ](https://example.com) Development Stack/Dependency
+  - [ ](https://example.com) Deployment Stack
+  - [ ](https://example.com) External Service Stack
+- [ ](https://example.com) General:
+  - [ ](https://example.com) Format and lint rules
+  - [ ](https://example.com) Function vs arrow function
+  - [ ](https://example.com) Type naming convention
+- [ ](https://example.com) Frontend/Client/Website:
+  - [ ](https://example.com) Landing page/route
+    - [ ](https://example.com) Header and Navigation
+    - [ ](https://example.com) Main
+    - [ ](https://example.com) Footer
+  - [ ](https://example.com) 404 Not Found page/route
+  - [ ](https://example.com) Splat (`*`) routes
+  - [ ](https://example.com) Favicons
+  - [ ](https://example.com) SEO metadata
+    - [ ](https://example.com) `charset`
+    - [ ](https://example.com) `sitemap.xml`
+    - [ ](https://example.com) `robots.txt`
+  - [ ](https://example.com) OG image for social media
+  - [ ](https://example.com) Twitter metadata
+  - [ ](https://example.com) JSON-LD Structured data
+  - [ ](https://example.com) Analytics
+- [ ](https://example.com) Backend/Server/API/Database:
+  - [ ](https://example.com) Model naming convention (singular vs plural)
+  - [ ](https://example.com) Field/property case convention (camel vs snake)
 
 ---
 
