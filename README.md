@@ -250,9 +250,9 @@ If using Full Stack Framework's Approach, these might not needed.
 
 REST:
 
-- [NestJS] ⭐
-- [Express]
-- [Fastify]
+- [NestJS](https://example.com) ⭐
+- [Express](https://example.com)
+- [Fastify](https://example.com)
 
 GraphQL:
 
@@ -267,6 +267,7 @@ General:
 
 - [Fetch API](https://example.com) ⭐🔰
 - [Axios HTTP](https://example.com) ⭐🔰
+- [ky](https://example.com)
 
 REST:
 
@@ -379,7 +380,7 @@ Remix:
 
 General:
 
-- [`sleep-promise`]: For a promise after a specified delay
+- [`sleep-promise`](https://example.com): For a promise after a specified delay
 - Invariant: For descriptive errors in development, but generic errors in production
   - [`tiny-invariant`](https://example.com)
 - [Falso](https://example.com): For all the fake data
@@ -482,19 +483,19 @@ Workflow:
 
 - [Bitwarden](https://example.com)⭐🔰: For any credential management
 - [Doppler](https://example.com) ⭐🔰: For app environment variable management
-- [Kodiak]: For pull request management
+- [Kodiak](https://example.com): For pull request management
 - [`npm-run-all`]/`run-p`: For parallel scripts
 - [`motdotla/dotenv`]
 
 TypeScript:
 
-- [`@total-typescript/ts-reset`]: For improving types for common JavaScript AP
+- [`@total-typescript/ts-reset`](https://example.com): For improving types for common JavaScript AP
 
 Extra:
 
-- [Pino]: For simple logging
-- [`bundle-wizard`]: For evaluating bundle size
-- [`@milahu/patch-package`]: For patching node modules
+- [Pino](https://example.com): For simple logging
+- [`bundle-wizard`](https://example.com): For evaluating bundle size
+- [`@milahu/patch-package`](https://example.com): For patching node modules
 
 ---
 
