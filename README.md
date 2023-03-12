@@ -4,7 +4,7 @@
 
 The opiniated stack list to build modern apps with web technologies. This is the simpler version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the complete list). You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your technical evaluation and decision.
 
-The main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required.
+The main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required. Also feel free to skip the ones without the ⭐.
 
 **Preferred core stack:**
 
@@ -180,10 +180,18 @@ The main criteria in choosing these that it must already been used for building 
 
 ## Package Manager
 
+General:
+
 - [pnpm](https://example.com) ⭐🔰
 - [npm](https://example.com)
 - [yarn](https://example.com)
 - [@antfu/ni](https://example.com)
+
+Installer:
+
+- [asdf](https://asdf-vm.com)
+- [nvm](https://github.com/nvm-sh/nvm)
+- [fnm](https://fnm.vercel.app)
 
 ## Full Stack Framework
 
@@ -286,21 +294,21 @@ GraphQL:
 
 - [Tailwind CSS](https://tailwindcss.com) ⭐🔰
   - [Tailwind UI](https://tailwindui.com)
-  - [`tailwindcss`](https://www.npmjs.com/package/tailwindcss)
-  - [`@tailwindcss/typography`](https://www.npmjs.com/package/@tailwindcss/typography)
-  - [`@tailwindcss/forms`](https://www.npmjs.com/package/@tailwindcss/forms)
-  - [`@tailwindcss/line-clamp`](https://www.npmjs.com/package/@tailwindcss/line-clamp)
-  - [`@tailwindcss/nesting`](https://www.npmjs.com/package/@tailwindcss/nesting)
-  - [`tailwindcss-radix`](https://www.npmjs.com/package/tailwindcss-radix)
-  - [`tailwindcss-animate`](https://www.npmjs.com/package/tailwindcss-animate)
-  - [`tailwindcss-debug-screens`](https://www.npmjs.com/package/tailwindcss-debug-screens)
-  - [`tailwind-merge`](https://www.npmjs.com/package/tailwind-merge)
-  - [`tailwind-variants`](https://www.npmjs.com/package/tailwind-variants)
-  - [`tailwind-config-viewer`](https://www.npmjs.com/package/tailwind-config-viewer)
-- [`clsx`](https://www.npmjs.com/package/clsx) ⭐🔰: For constructing `className` strings conditionally
+  - [`tailwindcss`](https://npmjs.com/package/tailwindcss)
+  - [`@tailwindcss/typography`](https://npmjs.com/package/@tailwindcss/typography)
+  - [`@tailwindcss/forms`](https://npmjs.com/package/@tailwindcss/forms)
+  - [`@tailwindcss/line-clamp`](https://npmjs.com/package/@tailwindcss/line-clamp)
+  - [`@tailwindcss/nesting`](https://npmjs.com/package/@tailwindcss/nesting)
+  - [`tailwindcss-radix`](https://npmjs.com/package/tailwindcss-radix)
+  - [`tailwindcss-animate`](https://npmjs.com/package/tailwindcss-animate)
+  - [`tailwindcss-debug-screens`](https://npmjs.com/package/tailwindcss-debug-screens)
+  - [`tailwind-merge`](https://npmjs.com/package/tailwind-merge)
+  - [`tailwind-variants`](https://npmjs.com/package/tailwind-variants)
+  - [`tailwind-config-viewer`](https://npmjs.com/package/tailwind-config-viewer)
+- [`clsx`](https://npmjs.com/package/clsx) ⭐🔰: For constructing `className` strings conditionally
   - [`lukeed/clsx`](https://github.com/lukeed/clsx)
 - [`cva`](https://cva.style): For creating component variants (Class Variance Authority)
-  - [`class-variance-authority`](https://www.npmjs.com/package/class-variance-authority):
+  - [`class-variance-authority`](https://npmjs.com/package/class-variance-authority):
   - [`joe-bell/cva`](https://github.com/joe-bell/cva)
 - [PostCSS](https://example.com)
 - [Autoprefixer](https://example.com)
@@ -496,8 +504,14 @@ TypeScript:
 
 - [`@total-typescript/ts-reset`](https://example.com): For improving types for common JavaScript AP
 
+Setup:
+
+- [Docker](https://docker.com)
+- [Nix](https://nix.dev)
+
 Extra:
 
+- [webhookthing](https://webhookthing.com)
 - [Pino](https://example.com): For simple logging
 - [`bundle-wizard`](https://example.com): For evaluating bundle size
 - [`@milahu/patch-package`](https://example.com): For patching node modules
@@ -581,7 +595,7 @@ Marketing:
 
 - [Catamyst Stack All](https://a.catamyst.com/stack-all)
 - [Infra I'm Building On In 2023](https://t3.gg/blog/post/2023-infra)
-  - [The Infra That Saved Me From AWS - My 2023 Stack](https://www.youtube.com/watch?v=v-9AZKp-Ljo)
+  - [The Infra That Saved Me From AWS - My 2023 Stack](https://youtube.com/watch?v=v-9AZKp-Ljo)
 
 ## Template
 
