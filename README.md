@@ -144,14 +144,13 @@ The main criteria in choosing these that it must already been used for building 
 
 # Design Stack
 
-## Sketch
+## Sketch/Diagram
 
+- [Eraser.io](https://eraser.io) ⭐
+  - [DesignDocs.dev](https://designdocs.dev)
 - [Excalidraw](https://excalidraw.com) ⭐
-
-## Diagram
-
-- [Whimsical](https://whimsical.com) ⭐
 - [Mermaid](https://mermaid.js.org)
+- [Whimsical](https://whimsical.com)
 
 ## UI and UX
 
@@ -312,6 +311,7 @@ GraphQL:
   - [`joe-bell/cva`](https://github.com/joe-bell/cva)
 - [PostCSS](https://example.com)
 - [Autoprefixer](https://example.com)
+- Fontsource: For self-host Open Source fonts in neatly bundled NPM packages.
 
 ## Components
 
