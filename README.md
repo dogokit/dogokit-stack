@@ -544,6 +544,11 @@ Extra:
 
 # External Service Stack
 
+## Monitoring
+
+- Highlight
+- Sentry
+
 ## Analytics
 
 - [Posthog](https://example.com) ⭐
