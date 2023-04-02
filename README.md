@@ -128,6 +128,8 @@ The main criteria in choosing these that it must already been used for building 
 
 - [Markdown](https://example.com) ⭐🔰
   - [MDX](https://example.com)
+- [Typst](https://typst.app)
+- LaTeX
 
 ## Time Tracking
 
