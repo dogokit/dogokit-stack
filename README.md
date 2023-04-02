@@ -204,11 +204,17 @@ Installer:
 - [SolidStart](https://example.com)
 - [SvelteKit](https://example.com)
 
-## Frontend/Client-Side Framework/Library
+## Frontend/Client-Side Web Library/Framework
 
 - [React](https://example.com) ⭐🔰
 - [Solid](https://example.com)
 - [Svelte](https://example.com)
+
+## Frontend/Client-Side Mobile Library/Framework
+
+- [React Native](https://example.com) ⭐🔰
+  - [Expo](https://example.com)
+- [Flutter](https://example.com)
 
 ## API Layer
 
@@ -254,7 +260,7 @@ Security/Encryption/Encoding:
 - [bcrypt](https://example.com) ⭐
 - [JWT (JSON Web Token)](https://jwt.io)
 
-## Backend/Server-Side Framework/Library
+## Backend/Server-Side Library/Framework
 
 If using Full Stack Framework's Approach, these might not needed.
 
