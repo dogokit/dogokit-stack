@@ -2,16 +2,25 @@
 
 > 🐱 Short URL: https://a.catamyst.com/stack
 
-The opiniated stack list to build modern apps with web technologies. This is the simpler version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the complete list). You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your technical evaluation and decision.
+An opiniated stack for building real world apps with web technologies.
 
-The main criteria in choosing these that it must already been used for building real world apps especially with real teams. The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required. Also feel free to skip the ones without the ⭐.
+**Core:**
 
-**Preferred core stack:**
+Remix, Tailwind CSS, Prisma ORM, MySQL, Vercel
 
-- Core: React, Remix, Tailwind CSS, Prisma ORM, Vercel.
-- Complete: Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remix, Tailwind CSS, Radix UI, Prisma ORM, MySQL on PlanetScale, Vitest, Playwright, MSW, Vercel, Doppler, Bitwarden, etc.
+**Preferences:**
 
-**Main categories:**
+Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remix, Tailwind CSS, Radix UI, Prisma ORM, MySQL on PlanetScale, Zod, Vercel, Bitwarden.
+
+---
+
+> BEGIN: [Catamyst](https://a.catamyst.com/stack)
+
+This is the shorter version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the longer list). You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your technical evaluation and decision.
+
+The symbol ⭐ indicated the recommendation and 🔰 need to be prioritized. Just keep in mind it doesn't mean that everything is required. Also feel free to skip the ones without the ⭐.
+
+**Main Categories:**
 
 - Stack: For technical evaluation
   - Work Stack
@@ -21,71 +30,6 @@ The main criteria in choosing these that it must already been used for building 
   - External Service Stack
 - References: For learning more
 - Checklist: For development decision
-
-**Table of contents:**
-
-- [Catamyst Stack](#catamyst-stack)
-- [Work Stack](#work-stack)
-  - [Browser](#browser)
-  - [Communication](#communication)
-  - [Note and Knowledge Base](#note-and-knowledge-base)
-  - [Project or Product Management](#project-or-product-management)
-  - [Survey Form and Data Management](#survey-form-and-data-management)
-  - [Documentation and Content](#documentation-and-content)
-  - [Time Tracking](#time-tracking)
-  - [Repository](#repository)
-- [Design Stack](#design-stack)
-  - [Sketch](#sketch)
-  - [Diagram](#diagram)
-  - [UI and UX](#ui-and-ux)
-- [App Stack/Dependency](#app-stackdependency)
-  - [App Language/Platform/Runtime/Format](#app-languageplatformruntimeformat)
-  - [Package Manager](#package-manager)
-  - [Full Stack Framework](#full-stack-framework)
-  - [Frontend/Client-Side Framework/Library](#frontendclient-side-frameworklibrary)
-  - [API Layer](#api-layer)
-  - [Content Layer](#content-layer)
-  - [Auth Layer](#auth-layer)
-  - [Backend/Server-Side Framework/Library](#backendserver-side-frameworklibrary)
-  - [Data Fething](#data-fething)
-  - [Styling](#styling)
-  - [Components](#components)
-  - [Icons](#icons)
-  - [Router/Routing](#routerrouting)
-  - [Data Validation](#data-validation)
-  - [Form Handling](#form-handling)
-  - [Complex State Management](#complex-state-management)
-  - [Database ORM](#database-orm)
-  - [Database](#database)
-  - [App Utility](#app-utility)
-- [Development Stack/Dependency](#development-stackdependency)
-  - [Language Transpiler](#language-transpiler)
-  - [Tooling Language/Platform/Runtime](#tooling-languageplatformruntime)
-  - [Project Bundler](#project-bundler)
-  - [Repo Management](#repo-management)
-  - [Code Formating](#code-formating)
-  - [Code Linting](#code-linting)
-  - [Testing](#testing)
-  - [Dev Utility](#dev-utility)
-- [Deployment Stack](#deployment-stack)
-  - [Frontend/Client Focused](#frontendclient-focused)
-  - [Backend/Server Focused](#backendserver-focused)
-  - [Complex Infra Focused](#complex-infra-focused)
-- [External Service Stack](#external-service-stack)
-  - [Analytics](#analytics)
-  - [Multimedia/Image/Video](#multimediaimagevideo)
-  - [Map](#map)
-  - [Mail](#mail)
-  - [CI/CD (Continuous Integration/Deployment)](#cicd-continuous-integrationdeployment)
-- [References](#references)
-  - [Template](#template)
-- [Checklist](#checklist)
-  - [Ideas](#ideas)
-  - [Todos](#todos)
-
----
-
-> BEGIN: [Catamyst](https://a.catamyst.com/stack)
 
 ---
 
@@ -114,15 +58,24 @@ The main criteria in choosing these that it must already been used for building 
 ## Project or Product Management
 
 - [Linear](https://example.com) ⭐🔰
+- [Asana](https://example.com)
 - [Trello](https://example.com)
 - [Todoist](https://example.com)
-- [Asana](https://example.com)
 
 ## Survey Form and Data Management
 
 - [Airtable](https://example.com) ⭐🔰
 - [Typeform](https://example.com)
 - [Google Forms](https://example.com) + [Google Sheets](https://example.com)
+
+## Terminal
+
+- [Warp](https://warp.dev)
+
+## Code Editor
+
+- [Zed](https://zed.dev)
+- [VS Code](https://code.visualstudio.com)
 
 ## Documentation and Content
 
@@ -131,9 +84,10 @@ The main criteria in choosing these that it must already been used for building 
 - [Typst](https://typst.app)
 - LaTeX
 
-## Time Tracking
+## Time Management/Tracking
 
 - [Clockify](https://example.com) ⭐
+- [Clockwise](https://example.com) ⭐
 
 ## Repository
 
