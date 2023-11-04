@@ -2,14 +2,14 @@
 
 ## Browser
 
+- Arc Browser ⭐
 - Google Chrome
-- Arc Browser
 
 ### Browser Extensions
 
 - uBlock Origin
-- BITWARDEN
-- WAPPALYZER
+- Bitwarden
+- Wappalyzer
 
 ## Terminal
 
@@ -84,6 +84,7 @@
 - Tailwind CSS
 - Tailwind Fold
   - Shortcut: Ctrl + Opt + A / Ctrl + Alt + A
+- Git History
 
 ## Secret Keys
 

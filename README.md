@@ -1,6 +1,4 @@
-# Catamyst Stack
-
-> 🐱 Short URL: https://a.catamyst.com/stack
+# 🐶 Dogokit Stack
 
 An opiniated stack for building real world apps with web technologies.
 
@@ -14,9 +12,7 @@ Linear, Figma, HTML, CSS, JavaScript, TypeScript, Node.js, npm/pnpm, React, Remi
 
 ---
 
-> BEGIN: [Catamyst](https://a.catamyst.com/stack)
-
-This is the shorter version of [catamyst/stack-all](https://a.catamyst.com/stack-all) (the longer list). You can [use this repo as a template](https://github.com/catamyst/stack/generate) to help with your technical evaluation and decision.
+This is the short version of Stack All. You can use this repo as a template to help with your technical evaluation and decision.
 
 The emoji 🧰 (toolbox) indicated the recommendation and 🔰 (beginner) need to be prioritized. Just keep in mind it doesn't mean that everything is required. Also feel free to skip the ones without the 🧰.
 
@@ -151,7 +147,7 @@ Installer:
   - 📦 React, TypeScript, Prisma, Tailwind CSS, Remix Auth
 - [Next.js](https://example.com) 🧰
 - [T3 Stack](https://example.com) 🧰
-    - 📦 Next.js, TypeScript, tRPC, Prisma, Tailwind CSS, NextAuth.js
+  - 📦 Next.js, TypeScript, tRPC, Prisma, Tailwind CSS, NextAuth.js
 - [SolidStart](https://example.com)
 - [SvelteKit](https://example.com)
 
@@ -558,7 +554,6 @@ Marketing:
 
 # References
 
-- [Catamyst Stack All](https://a.catamyst.com/stack-all)
 - [Infra I'm Building On In 2023](https://t3.gg/blog/post/2023-infra)
   - [The Infra That Saved Me From AWS - My 2023 Stack](https://youtube.com/watch?v=v-9AZKp-Ljo)
 
@@ -637,6 +632,3 @@ Marketing:
   - [ ] Model naming convention (singular vs plural)
   - [ ] Field/property case convention (camel vs snake)
 
----
-
-> EOF: [Catamyst](https://a.catamyst.com/stack)
